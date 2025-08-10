@@ -26,7 +26,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/submit")
+@app.post("/marshmallow")
 async def submit_question(request: Request):
     # 从请求体中异步读取 JSON 数据
     data = await request.json()
