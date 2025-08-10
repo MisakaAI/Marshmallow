@@ -1,0 +1,5 @@
+fastapi
+psycopg[binary]
+sqlmodel
+uvicorn
+redis
