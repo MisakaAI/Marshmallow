@@ -50,7 +50,7 @@ function App() {
 
   // 组件渲染内容
   return (
-    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
+    <div className="main">
       {/* 直播间 */}
       <a
         href="https://live.bilibili.com/3472667"
@@ -72,7 +72,7 @@ function App() {
       />
       <br />
       {/* 提交按钮 */}
-      <button onClick={handleSubmit} style={{ marginTop: "10px" }}>
+      <button onClick={handleSubmit}>
         提交
       </button>
       {/* 如果有响应结果，则显示对应信息 */}
